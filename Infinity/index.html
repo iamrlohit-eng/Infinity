@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Infinity | Lohith Raj R</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <header class="top-header">
+    <div class="logo">∞ Infinity</div>
+
+    <div class="top-connect">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="resume.pdf" download class="resume-top">
+        <i class="fas fa-download"></i> Resume
+      </a>
+    </div>
+  </header>
+
+  <!-- MAIN HORIZONTAL SECTIONS -->
+  <main class="main-sections">
+
+    <section class="panel">
+      <h2>AI Capabilities</h2>
+      <div class="box">🧠 AI Chatbots</div>
+      <div class="box">📊 ExamMind AI</div>
+      <div class="box">🌾 Kissan AI</div>
+      <div class="box">🕊️ Serenity AI</div>
+    </section>
+
+    <section class="panel">
+      <h2>About Me</h2>
+      <p id="about-content">
+  Hi, I'm Lohith Raj R...
+</p>
+<section class="panel">
+  <h2>About Me</h2>
+
+  <p>
+    Hi, I’m <strong>Lohith Raj R</strong>, a passionate student at
+    <strong>Jain Institute of Technology, Davangere</strong>, on a mission to
+    build the future through <strong>code, creativity, and artificial intelligence</strong>.
+  </p>
+
+  <p>
+    I’m a budding developer with hands-on interest in
+    <strong>Data Science, Web Development, Software Development, Python, Java</strong>,
+    and <strong>Ethical Hacking</strong>, constantly exploring new technologies
+    and pushing the boundaries of what I can build.
+  </p>
+
+  <p>
+    I’m deeply fascinated by <strong>AI-powered projects</strong> and have worked on
+    <strong>Serenity AI, ExamMind AI, Kissan</strong>, and intelligent chatbot systems —
+    all focused on solving real-world problems.
+  </p>
+
+  <p class="quote">
+    “Building today. Innovating tomorrow.”
+  </p>
+</section>
+<script>
+const about = localStorage.getItem("aboutText");
+if (about) {
+  document.getElementById("about-content").innerText = about;
+}
+</script>
+
+    <section class="panel">
+      <h2>Skills & Interests</h2>
+      <div class="box">Python</div>
+      <div class="box">Java</div>
+      <div class="box">Data Science</div>
+      <div class="box">Web Development</div>
+      <div class="box">AI / ML</div>
+    </section>
+
+    <section class="panel">
+      <h2>Projects</h2>
+      <div class="box"><a href="https://github.com/iamrlohit-eng/Serenity-AI">Serenity AI</a></div>
+      <div class="box"><a href="https://github.com/iamrlohit-eng/Exam-Mind-AI">ExamMind AI</a></div>
+      <div class="box"><a href="https://github.com/iamrlohit-eng/KIsaan">Kissan</a></div>
+      <div class="box">AI Chatbot Systems</div>
+    </section>
+
+    <section class="panel">
+      <h2>Let’s Connect</h2>
+      <p>
+        Links to my LinkedIn, GitHub, Instagram, and YouTube.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Infinity | Crafted by Lohith Raj R
+  </footer>
+
+  <link rel="stylesheet" href="chatbot.css">
+<script src="chatbot.js"></script>
+<script>
+fetch("chatbot.html")
+  .then(res => res.text())
+  .then(data => document.body.insertAdjacentHTML("beforeend", data));
+</script>
+
+<script src="scroll.js"></script>
+</body>
+</html>
+
+<div class="top-connect">
+
+  <!-- GitHub -->
+  <a href="https://github.com/iamrlohit-eng" target="_blank" title="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/lohit-raj-r-702b40258" target="_blank" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/iamrlohit" target="_blank" title="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <!-- YouTube -->
+  <a href="https://www.youtube.com/@iamrlohit" target="_blank" title="YouTube">
+    <i class="fab fa-youtube"></i>
+  </a>
+
+  <!-- Resume -->
+  <a href="resume.pdf" download class="resume-top" title="Download Resume">
+    <i class="fas fa-download"></i> Resume
+  </a>
+
+</div>
